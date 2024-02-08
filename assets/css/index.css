@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.container {
+  padding-left: 15rem;
+  padding-right: 20rem;
+}
+
+/* Section Header Start */
+
+.header-banner {
+  background-color: #f1f3ff;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.header-logo {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+.header-navlink {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header-navlink,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.header-navlink,
+li,
+a :hover {
+  color: #0d28a6;
+}
+
+.hero-banner {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.hero-banner-car-grid {
+  width: 604px;
+  height: 507px;
+}
+
+.hero-banner-car {
+  position: absolute;
+  right: 0;
+}
+
+img {
+  width: 904px;
+  height: 507px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+}
+.hero-paragraph {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-right: 8rem;
+}
+
+.hero-btn-banner {
+  padding: 12px 16px 12px 16px;
+  border-radius: 2px;
+  background-color: #5cb85f;
+  font-size: 18px;
+  line-height: 20px;
+  border: none;
+  display: block;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.hero-btn-banner:hover {
+  opacity: 0.8;
+}
+
+/* Section Header End */
+
+/* Section Service Start */
+
+.section-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-top: 6rem;
+}
+
+.section-services-image img {
+  width: 459px;
+  height: 428px;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+
+.section-services-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-left: 7rem;
+}
+
+.section-services-paragraph {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-left: 7rem;
+  margin-right: 6rem;
+}
+
+.section-services-list {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-left: 7rem;
+}
+
+/* Section Service End */
